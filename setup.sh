@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e  # stop the script if any command fails
 
 # Update packages and Upgrade system
 echo "Updating System.."
