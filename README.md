@@ -1,6 +1,11 @@
 # Ubuntu-server-side-setup
 Setup script for comps 381f server side
 
+## Before run the setup script
+```
+chmod +x setup.sh
+```
+
 Reference:
 <br>
 https://github.com/Studio3T/robomongo
