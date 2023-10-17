@@ -27,7 +27,7 @@ nvm install 16.20.1
 echo "Installing Robo3T..."
 wget https://download.studio3t.com/robomongo/linux/robo3t-1.4.4-linux-x86_64-e6ac9ec.tar.gz
 tar -xvzf robo3t-1.4.4-linux-x86_64-e6ac9ec.tar.gz
-sudo mv robo3t-1.4.4-linux-x86_64-e6ac9ec.tar.gz /usr/local/bin/robo3t
+sudo mv robo3t-1.4.4-linux-x86_64-e6ac9ec /usr/local/bin/robo3t
 sudo ln -s /usr/local/bin/robo3t/bin/robo3t /usr/local/bin/robo3t
 
 echo "Installation completed successfully."
