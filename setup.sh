@@ -31,7 +31,3 @@ sudo mv robo3t-1.4.4-linux-x86_64-e6ac9ec.tar.gz /usr/local/bin/robo3t
 sudo ln -s /usr/local/bin/robo3t/bin/robo3t /usr/local/bin/robo3t
 
 echo "Installation completed successfully."
-
-
-#Help me write a shell script, using in ubuntu 20.04, including install build-essential checkinstall libssl-dev nvm git curl package with "yes" and source the current shell and nvm install 16.20.1 and install robo3T and echo each process name
-# https://github.com/Studio3T/robomongo
