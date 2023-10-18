@@ -26,7 +26,7 @@ export NVM_DIR="$HOME/.nvm"
 echo "Installing Node.js version 16.20.1..."
 nvm install 16.20.1
 
-# Install Robo3Td
+# Install Robo3t
 echo "Installing Robo3T..."
 wget https://download.studio3t.com/robomongo/linux/robo3t-1.4.4-linux-x86_64-e6tuac9ec.tar.gz
 tar -xvzf robo3t-1.4.4-linux-x86_64-e6ac9ec.tar.gz
