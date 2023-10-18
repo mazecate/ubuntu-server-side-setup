@@ -26,3 +26,7 @@ Open Current directory in terminal
 ```
 xdg-open $PWD
 ```
+
+
+## Symbolic link reference:
+https://askubuntu.com/questions/1086575/what-happens-to-a-symbolic-link-when-the-original-file-is-replaced
