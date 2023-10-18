@@ -1,4 +1,4 @@
-# Ubuntu-server-side-setup
+t# Ubuntu-server-side-setup
 Setup script for comps 381f server side
 
 ## Assign execute permission to the file
@@ -21,3 +21,8 @@ https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts
 https://stackoverflow.com/questions/50156206/source-bash-profile-do-not-works-inside-a-bash-script
 <br>
 https://stackoverflow.com/questions/43659084/source-bashrc-in-a-script-not-working
+<br>
+Open Current directory in terminal
+```
+xdg-open $PWD
+```
