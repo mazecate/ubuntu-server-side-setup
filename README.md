@@ -22,6 +22,8 @@ https://stackoverflow.com/questions/50156206/source-bash-profile-do-not-works-in
 <br>
 https://stackoverflow.com/questions/43659084/source-bashrc-in-a-script-not-working
 <br>
+https://idroot.us/install-robo-3t-on-ubuntu-20-04/
+<br>
 Open Current directory in terminal
 ```
 xdg-open $PWD
