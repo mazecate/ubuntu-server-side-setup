@@ -46,4 +46,11 @@ sudo ln -sf /usr/local/bin/robo3t/bin/robo3t /usr/local/bin/robo3t
 # sudo chmod +x /usr/local/bin/robo3t/bin/robo3t
 # sudo ln -sf /usr/local/bin/robo3t/bin/robo3t /usr/local/bin/robo3t
 
+# Open new terminal
+gnome-terminal
+
+# Kill current terminal by pid
+# pid=$$
+# kill -9 $pid
+
 echo "Installation completed successfully."
