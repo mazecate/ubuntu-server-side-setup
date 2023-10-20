@@ -10,6 +10,9 @@ chmod +x setup.sh
 ```
 ./setup.sh
 ```
+```
+sh setup.sh
+```
 
 Reference:
 <br>
