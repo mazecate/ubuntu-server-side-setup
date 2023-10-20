@@ -32,8 +32,4 @@ nvm install 16.20.1
 # Open new terminal
 gnome-terminal
 
-# Kill current terminal by pid
-# pid=$$
-# kill -9 $pid
-
 echo "Installation completed successfully."
