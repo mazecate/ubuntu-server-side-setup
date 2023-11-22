@@ -6,6 +6,9 @@ set -e
 # Reference 
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
+
+# Find suitable version number
+# https://github.com/docker/compose/releases?page=2
 versionNumber=1.29.2
 
 sudo curl -L "https://github.com/docker/compose/releases/download/${versionNumber}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
