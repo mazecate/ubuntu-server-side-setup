@@ -27,7 +27,7 @@ echo "Sourcing the current shell..."
 
 # Install Node.js version 16.20.1
 echo "Installing Node.js version 16.20.1..."
-nvm install 16.20.1
+nvm install --lts
 
 # Install Robo3t
 echo "Installing Robo3T..."
