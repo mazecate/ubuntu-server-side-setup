@@ -9,7 +9,8 @@ set -e
 
 # Find suitable version number
 # https://github.com/docker/compose/releases?page=2
-versionNumber=1.29.2
+# versionNumber=1.29.2
+versionNumber=v2.27.2
 
 sudo curl -L "https://github.com/docker/compose/releases/download/${versionNumber}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
