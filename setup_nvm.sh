@@ -26,7 +26,7 @@ echo "Sourcing the current shell..."
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Install Node.js version 16.20.1
-echo "Installing Node.js version 16.20.1..."
+echo "Installing Node.js LTS version..."
 nvm install --lts
 
 # Open new terminal
