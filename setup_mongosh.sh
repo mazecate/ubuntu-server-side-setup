@@ -26,3 +26,4 @@ mongosh --version
 
 # https://www.mongodb.com/docs/mongodb-shell/
 # https://www.mongodb.com/docs/mongodb-shell/install/
+# mongodb+srv://linus:<password>@cluster0.shfmedr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
