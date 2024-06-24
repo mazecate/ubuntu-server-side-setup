@@ -51,7 +51,7 @@ gnome-terminal
 
 echo "Installation completed successfully."
 
-
+################################################################################################################################################
 # Using apt-get install jq:
 # sudo apt-get update
 # sudo apt-get -y install jq
@@ -62,3 +62,8 @@ echo "Installation completed successfully."
 
 # Check jq version
 # jq --version
+
+# Autp get the latest nvm version tag
+# LATEST_NVM_VERSION=$(curl -s https://api.github.com/repos/nvm-sh/nvm/releases/latest | jq -r '.tag_name')
+# echo "Latest nvm version: $LATEST_NVM_VERSION"
+# echo curl -s https://raw.githubusercontent.com/nvm-sh/nvm/$LATEST_NVM_VERSION/install.sh
