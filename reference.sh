@@ -50,3 +50,15 @@ gnome-terminal
 # kill -9 $pid
 
 echo "Installation completed successfully."
+
+
+# Using apt-get install jq:
+# sudo apt-get update
+# sudo apt-get -y install jq
+
+# Using apt install jq:
+# sudo apt update
+# sudo apt -y install jq
+
+# Check jq version
+# jq --version
