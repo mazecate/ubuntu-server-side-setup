@@ -26,4 +26,4 @@ mongosh --version
 
 # https://www.mongodb.com/docs/mongodb-shell/
 # https://www.mongodb.com/docs/mongodb-shell/install/
-# mongosh "mongodb+srv://cluster0.shfmedr.mongodb.net/" --apiVersion 1 --username linus
+# https://www.mongodb.com/docs/v2.2/tutorial/getting-started-with-the-mongo-shell/
