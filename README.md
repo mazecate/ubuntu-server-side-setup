@@ -35,6 +35,14 @@ https://stackoverflow.com/questions/43659084/source-bashrc-in-a-script-not-worki
 <br>
 https://idroot.us/install-robo-3t-on-ubuntu-20-04/
 <br>
+https://www.mongodb.com/docs/mongodb-shell/
+<br>
+https://www.mongodb.com/docs/mongodb-shell/install/
+<br>
+https://www.mongodb.com/docs/v2.2/tutorial/getting-started-with-the-mongo-shell/
+<br>
+<br>
+<br>
 Open Current directory in terminal
 ```
 xdg-open $PWD
