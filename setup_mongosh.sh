@@ -23,3 +23,5 @@ sudo apt-get install -y mongodb-mongosh
 
 # Check version
 mongosh --version
+
+# https://www.mongodb.com/docs/mongodb-shell/
