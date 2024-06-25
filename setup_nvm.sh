@@ -9,7 +9,7 @@ sudo apt-get update -y
 
 # Installing prerequisites
 echo "Installing prerequisites..."
-sudo apt-get install -y build-essential checkinstall libssl-dev curl git
+sudo apt-get install -y build-essential checkinstall libssl-dev curl git gedit
 
 # Install NVM
 echo "Installing NVM..."
