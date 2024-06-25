@@ -30,4 +30,4 @@ sudo ln -sf /usr/local/robo3t/bin/robo3t /usr/local/bin/robo3t
 # gnome-terminal
 
 echo "Robo3T installation completed successfully."
-echo robo3t --version
+# echo robo3t --version
