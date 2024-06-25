@@ -20,6 +20,9 @@ node --version
 # Check MongoDB shell version
 mongo --version
 
+# VER=$(docker --version | awk '{print $3}')
+# echo "Docker is installed $VER" 
+
 ####
 # This is for details show
 ####
