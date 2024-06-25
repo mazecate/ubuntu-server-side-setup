@@ -1,24 +1,24 @@
-#!/bin/bash
+# #!/bin/bash
 
-# Check Docker version
-docker --version
+# # Check Docker version
+# docker --version
 
-# Check Docker Compose version
-docker-compose --version
+# # Check Docker Compose version
+# docker-compose --version
 
-# Check Robo 3T version (if installed via snap)
-# snap info robo3t-snap
-robo3t --version
+# # Check Robo 3T version (if installed via snap)
+# # snap info robo3t-snap
+# robo3t --version
 
-# Check Node.js version using NVM
-nvm --version
-nvm ls
+# # Check Node.js version using NVM
+# nvm --version
+# nvm ls
 
-# Check Node.js version (if installed via apt)
-node --version
+# # Check Node.js version (if installed via apt)
+# node --version
 
-# Check MongoDB shell version
-mongo --version
+# # Check MongoDB shell version
+# mongo --version
 
 # VER=$(docker --version | awk '{print $3}')
 # echo "Docker is installed $VER" 
