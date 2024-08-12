@@ -16,7 +16,7 @@ sudo chmod +x robo3t-1.4.4-linux-x86_64-e6ac9ec/bin/robo3t
 sudo mkdir -p /usr/local/robo3t
 # sudo mv -f robo3t-1.4.4-linux-x86_64-e6ac9ec/* /usr/local/robo3t
 sudo cp -rf robo3t-1.4.4-linux-x86_64-e6ac9ec/* /usr/local/robo3t
-sudo chmod +x /usr/local/bin/robo3t/bin/robo3t
+# sudo chmod +x /usr/local/bin/robo3t/bin/robo3t
 sudo ln -sf /usr/local/robo3t/bin/robo3t /usr/local/bin/robo3t
 
 # Open new terminal
