@@ -17,5 +17,8 @@ sudo curl -L "https://github.com/docker/compose/releases/download/${versionNumbe
 # Next, set the correct permissions so that the docker-compose command is executable:
 sudo chmod +x /usr/local/bin/docker-compose
 
+# Add your user to the docker group (optional, to run Docker without sudo)
+sudo usermod -aG docker $USER
+
 # To verify that the installation was successful, you can run:
 docker-compose --version
