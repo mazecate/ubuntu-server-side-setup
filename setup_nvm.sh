@@ -13,7 +13,7 @@ sudo apt-get install -y build-essential checkinstall libssl-dev curl git gedit
 
 # Install NVM
 echo "Installing NVM..."
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
 # Source the current shell
 # Reference: https://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script
