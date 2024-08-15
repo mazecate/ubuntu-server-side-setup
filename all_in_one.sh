@@ -120,7 +120,7 @@ install_docker_compose() {
   sudo chmod +x /usr/local/bin/docker-compose
   
   # Create docker group if not exist
-  sudo groupadd docker
+  # sudo groupadd docker
   
   # Add your user to the docker group (optional, to run Docker without sudo)
   # sudo usermod -aG docker $USER
