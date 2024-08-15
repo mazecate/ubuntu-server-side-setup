@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # stop the script if any command fails
-set -e
+# set -e
 
 install_nvm() {
   # Update packages and Upgrade system
@@ -20,15 +20,15 @@ install_nvm() {
   # Reference: https://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script
   # echo "Sourcing the current shell..."
   #source ~/.bashrc
-  # . ~/.nvm/nvm.sh
+  . ~/.nvm/nvm.sh
   # . ~/.bashrc
   # export NVM_DIR="$HOME/.nvm"
   # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
   
   # Install Node.js version 16.20.1
-  # echo "Installing Node.js LTS version..."
-  # nvm install --lts
+  echo "Installing Node.js LTS version..."
+  nvm install --lts
 
   echo "Nvm installation completed successfully."
 }
@@ -120,13 +120,13 @@ install_docker_compose() {
   sudo chmod +x /usr/local/bin/docker-compose
   
   # Create docker group if not exist
-  # sudo groupadd docker
+  sudo groupadd docker
   
   # Add your user to the docker group (optional, to run Docker without sudo)
-  # sudo usermod -aG docker $USER
+  sudo usermod -aG docker $USER
   
   # Login to the new `docker` group (to avoid having to logout / login again; but if not enough, try to reboot):
-  # newgrp docker
+  newgrp docker
   
   # To verify that the installation was successful, you can run:
   echo "Docker-compose installation completed successfully."
