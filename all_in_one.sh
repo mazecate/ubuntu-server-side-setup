@@ -3,7 +3,7 @@
 # stop the script if any command fails
 set -e
 
-function install_nvm() {
+install_nvm() {
   # Update packages and Upgrade system
   echo "Updating System.."
   sudo apt-get update -y
@@ -36,7 +36,7 @@ function install_nvm() {
   echo "Nvm installation completed successfully."
 }
 
-function install_mongo_shell() {
+install_mongo_shell() {
   # Install gnupg and its required libraries using the following command
   sudo apt-get install gnupg
   
@@ -56,7 +56,7 @@ function install_mongo_shell() {
   mongosh --version
 }
 
-function install_robo3t() {
+install_robo3t() {
   # Update packages and Upgrade system
   echo "Updating System..."
   sudo apt-get update -y
@@ -79,7 +79,7 @@ function install_robo3t() {
   robo3t --version
 }
 
-function install_docker() {
+install_docker() {
   # Update the package index
   sudo apt-get update
   
@@ -110,7 +110,7 @@ function install_docker() {
   sudo docker version
 }
 
-function install_docker_compose() {
+install_docker_compose() {
   # Find suitable version number
   # https://github.com/docker/compose/releases?page=2
   versionNumber=v2.27.2
