@@ -14,29 +14,28 @@ install_nvm() {
   
   # Install NVM
   echo "Installing NVM..."
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
   
   # Source the current shell
   # Reference: https://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script
-  echo "Sourcing the current shell..."
+  # echo "Sourcing the current shell..."
   #source ~/.bashrc
-  . ~/.nvm/nvm.sh
-  . ~/.bashrc
+  # . ~/.nvm/nvm.sh
+  # . ~/.bashrc
   # export NVM_DIR="$HOME/.nvm"
   # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
   
   # Install Node.js version 16.20.1
-  echo "Installing Node.js LTS version..."
-  nvm install --lts
-  
-  # Open new terminal
-  gnome-terminal
-  
+  # echo "Installing Node.js LTS version..."
+  # nvm install --lts
+
   echo "Nvm installation completed successfully."
 }
 
 install_mongo_shell() {
+  echo "Installing Mongo Shell..."
+  
   # Install gnupg and its required libraries using the following command
   sudo apt-get install gnupg
   
@@ -72,14 +71,12 @@ install_robo3t() {
   # sudo chmod +x /usr/local/bin/robo3t/bin/robo3t
   sudo ln -sf /usr/local/robo3t/bin/robo3t /usr/local/bin/robo3t
   
-  # Open new terminal
-  # gnome-terminal
-  
   echo "Robo3T installation completed successfully."
   robo3t --version
 }
 
 install_docker() {
+  echo "Installing Docker..."
   # Update the package index
   sudo apt-get update
   
@@ -107,10 +104,12 @@ install_docker() {
   
   # Verify the Docker installation
   echo "Docker installation completed successfully."
-  sudo docker version
+  docker --version
 }
 
 install_docker_compose() {
+  echo "Installing Docker compose..."
+  
   # Find suitable version number
   # https://github.com/docker/compose/releases?page=2
   versionNumber=v2.27.2
@@ -124,12 +123,13 @@ install_docker_compose() {
   sudo groupadd docker
   
   # Add your user to the docker group (optional, to run Docker without sudo)
-  sudo usermod -aG docker $USER
+  # sudo usermod -aG docker $USER
   
   # Login to the new `docker` group (to avoid having to logout / login again; but if not enough, try to reboot):
-  newgrp docker
+  # newgrp docker
   
   # To verify that the installation was successful, you can run:
+  echo "Docker-compose installation completed successfully."
   docker-compose --version
 }
 
