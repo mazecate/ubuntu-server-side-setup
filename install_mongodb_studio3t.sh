@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#https://github.com/mazecate/ubuntu-server-side-setup/edit/main/install_mongodb_studio3t.sh
+#https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/primer-dataset.json
 
 install_mongodb() {
     # 更新包列表
