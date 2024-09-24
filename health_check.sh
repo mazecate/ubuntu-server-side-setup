@@ -6,30 +6,37 @@ cd ~
 # 执行 df -h 命令并将结果输出到 home_output.txt 文件
 df -h > home_output.txt
 
+# print new line to the file
+printf "\n" >> home_output.txt
+
+pwd >> home_output.txt
+
+top 1 | head -n 13 > output.txt
+
 # 执行 tail 命令并将结果输出到 error_log_output.txt 文件
 # tail -f -n 100 /var/log/error_log > error_log_output.txt
 
 # 获取当前日期和前两天的日期
-today=$(date +%Y%m%d)
-yesterday=$(date -d "yesterday" +%Y%m%d)
-day_before_yesterday=$(date -d "2 days ago" +%Y%m%d)
+# today=$(date +%Y%m%d)
+# yesterday=$(date -d "yesterday" +%Y%m%d)
+# day_before_yesterday=$(date -d "2 days ago" +%Y%m%d)
 
-# 定义日志文件路径
-log_files=(
-    "/var/log/error_log_$day_before_yesterday"
-    "/var/log/error_log_$yesterday"
-    "/var/log/error_log_$today"
-)
+# # 定义日志文件路径
+# log_files=(
+#     "/var/log/error_log_$day_before_yesterday"
+#     "/var/log/error_log_$yesterday"
+#     "/var/log/error_log_$today"
+# )
 
-# 输出日志内容到 error_log_output.txt 文件
-for log_file in "${log_files[@]}"; do
-    if [ -f "$log_file" ]; then
-        echo "Processing $log_file" >> error_log_output.txt
-        tail -n 100 "$log_file" >> error_log_output.txt
-    else
-        echo "$log_file does not exist" >> error_log_output.txt
-    fi
-done
+# # 输出日志内容到 error_log_output.txt 文件
+# for log_file in "${log_files[@]}"; do
+#     if [ -f "$log_file" ]; then
+#         echo "Processing $log_file" >> error_log_output.txt
+#         tail -n 100 "$log_file" >> error_log_output.txt
+#     else
+#         echo "$log_file does not exist" >> error_log_output.txt
+#     fi
+# done
 
 
 # MYSQL_USER="your_username"
